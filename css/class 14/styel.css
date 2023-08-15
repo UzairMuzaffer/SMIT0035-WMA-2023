@@ -1,0 +1,20 @@
+body {
+  height: 100vh;
+}
+
+.box {
+  background-color: red;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+
+  /* min-width: 200px;
+  min-height: 200px; */
+
+  /* max-height: 500px;
+  max-width: 500px; */
+
+  /* min-height: 50px; */
+  /* min-width: 200px;
+  margin-right: 20px; */
+}

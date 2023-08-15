@@ -1,0 +1,41 @@
+ol {
+  list-style-type: decimal-leading-zero;
+}
+
+/* width 
+padding 
+text-transform 
+letter-spacing, font-size
+border-top, border-bottom
+text-align
+background-color to change
+:hover  */
+
+table {
+  border: 2px solid;
+  padding: 4px;
+  letter-spacing: 5px;
+  font-size: 20px;
+  text-align: center;
+  empty-cells: hide;
+  border-spacing: 5px 15px;
+}
+
+/* table td {
+  background-color: red;
+} */
+
+table td:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.money:hover {
+  background-color: green;
+}
+
+td {
+  background-color: #0088dd;
+  padding: 15px;
+  border: 2px solid #000000;
+}

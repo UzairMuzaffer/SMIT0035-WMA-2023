@@ -1,0 +1,51 @@
+body {
+  /* font-size: 50px; */
+}
+
+.main-heading {
+  /* font-size: 40px; */
+  color: red;
+  text-align: center;
+}
+
+/* h2 + h3 {
+  color: red;
+} */
+
+h2 ~ h3 {
+  color: red;
+}
+
+div {
+  /* background-color: green; */
+}
+
+div > h1 {
+  /* background-color: blue; */
+  /* color: yellow; */
+}
+
+/* div > p {
+  font-size: 20px;
+  color: aqua;
+} */
+
+div p {
+  font-size: 20px;
+  color: green;
+}
+
+/* ul li {
+  color: black;
+  font-size: 40px;
+} */
+
+/* ul > li {
+  font-size: 30px;
+  color: blue;
+} */
+
+/* ul > li > div {
+  color: green;
+  font-size: 20px;
+} */
