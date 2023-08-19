@@ -11,11 +11,25 @@
     <h1>Hello from html</h1>
 
     <script>
+        //! assignmrnt 3 question 2
+        var visitCount = +localStorage.getItem("visitCount");
+        console.log(visitCount);
+        visitCount++;
+        console.log(visitCount);
+        localStorage.setItem("visitCount", visitCount);
+
+        // alert("You have visited this page" + visitCount + "times");
+        alert(`
+        You have visited 
+        this page ${visitCount} times
+        `);
+
+
         // alert('hello from script tag'); // 1
         // alert('Error: Please enter a valid password'); // 2
         // alert('Welcome to js land... \n Happy coding'); // 3
-        alert('Welcome to js land...'); // 4
-        alert('Happy coding'); // 4
+        // alert('Welcome to js land...'); // 4
+        // alert('Happy coding'); // 4
     </script>
 </body>
 
