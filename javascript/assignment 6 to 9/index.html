@@ -28,6 +28,45 @@
             ${userValue} X 9 = ${userValue * 9}
             ${userValue} X 10 = ${userValue * 10}
         `);
+
+        // q. 8
+        var userNumber = prompt("give me a number");
+        if (userNumber % 3 === 0) {
+            console.log('divisible by 3');
+        } else {
+            console.log('not divisible by 3');
+        }
+
+        // q. 9 
+        var number = +prompt("give me a number");
+
+        if (number % 2 === 0) {
+            console.log('Even number');
+        } else {
+            console.log('Odd number');
+        }
+
+
+        //  q. 11
+        var user1Number = +prompt("give me a first number");
+        var user2Number = +prompt("give me a second number");
+        var operation = prompt("give me a operation(+,/,*,-,%)");
+
+        if (isNaN(user1Number) || isNaN(user2Number)) {
+            console.log('not a number');
+        } else if (operation === "+") {
+            console.log(user1Number + user2Number);
+        } else if (operation === "-") {
+            console.log(user1Number - user2Number);
+        } else if (operation === "*") {
+            console.log(user1Number * user2Number);
+        } else if (operation === "/") {
+            console.log(user1Number / user2Number);
+        } else if (operation === "%") {
+            console.log(user1Number % user2Number);
+        } else {
+            console.log('wrong operator');
+        }
     </script>
 </body>
 
