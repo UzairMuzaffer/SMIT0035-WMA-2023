@@ -34,3 +34,65 @@ grasp his. `;
 //   }
 // }
 // console.log(paragraph);
+
+
+const str = "Hello, World!";
+const language = "en-US";
+
+// 1. Convert to lowercase
+const lowerCaseStr = str.toLowerCase();
+console.log(lowerCaseStr); // Output: "hello, world!"
+
+// 2. Convert to uppercase
+const upperCaseStr = str.toUpperCase();
+console.log(upperCaseStr); // Output: "HELLO, WORLD!"
+
+// 3. Convert to locale-specific lowercase
+const localeLowerCaseStr = str.toLocaleLowerCase('en-US');
+console.log(localeLowerCaseStr);
+
+// 4. Convert to locale-specific uppercase
+const localeUpperCaseStr = str.toLocaleUpperCase('en-US');
+console.log(localeUpperCaseStr);
+
+// 5. Get a substring (slice)
+const slicedStr = str.slice(0, 5);
+console.log(slicedStr); // Output: "Hello"
+
+// 6. Get the length of the string
+const strLength = str.length;
+console.log(strLength); // Output: 13
+
+// 7. Find the index of a substring
+const indexOfSomething = str.indexOf("World");
+console.log(indexOfSomething); // Output: 7
+
+// 8. Check if a substring exists in the string
+const doesNotContainSomething = str.indexOf("something") === -1;
+console.log(doesNotContainSomething); // Output: true
+
+// 9. Get a character at a specific position
+const charAtPos5 = str.charAt(5);
+console.log(charAtPos5); // Output: ","
+
+// 10. Get a character at a specific position using `at` (negative index supported)
+const charAtPosNegative = str.at(-5);
+console.log(charAtPosNegative); // Output: "o"
+
+// 11. Replace a substring with another string
+const replacedStr = str.replace("Hello", "Hi");
+console.log(replacedStr); // Output: "Hi, World!"
+
+// 12. Replace all occurrences of a substring
+const replacedAllStr = str.replaceAll("o", "0");
+console.log(replacedAllStr); // Output: "Hell0, W0rld!"
+
+// 13. Convert string to a number
+const strOfNumber = '1212131';
+const strToNumber = Number(strOfNumber);
+console.log(strToNumber); // Output: NaN (if the string is not a valid number) other than Output is: 1212131
+
+// 14. Convert string to a number using the unary plus operator
+const strToNumberPlus = +strOfNumber;
+console.log(strToNumberPlus); // Output: NaN (if the string is not a valid number) other than Output is: 1212131
+
