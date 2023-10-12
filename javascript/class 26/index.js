@@ -1,6 +1,5 @@
 
 /*
-  chapter 41 to -
   1. events
   2. onClick
   3. onFocus
@@ -20,7 +19,6 @@
 // }
 
 const inputNumber = document.querySelector("[type='number']");
-
 
 function preventDecimal() {
   console.log(this);
