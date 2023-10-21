@@ -105,7 +105,15 @@ const arrOfArr = [
 // let scoreTeam2 = calcAverage(65, 54, 49);
 // checkWinner(scoreTeam1, scoreTeam2);
 
-//! tip calculator Array
-// bill <= 300 ? 0.15 :  0.2
-const bills = [125, 555, 54];
-const tips = [];
+// //! tip calculator Array
+// // bill <= 300 ? 0.15 :  0.2
+// const bills = [125, 555, 54];
+// const tips = [];
+// for (let bill of bills) {
+//   let tipPercent;
+//   if (bill <= 300) tipPercent = 0.15
+//   else tipPercent = 0.2;
+    
+//   tips.push(bill * tipPercent)  
+// }
+// console.log(tips)
