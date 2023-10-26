@@ -6,18 +6,62 @@
   4. question resolving
 */
 
+// for lecture
+/*
+  - everything about Array
+
+  - everything about Date contractor
+
+  - what is function
+  - what is parameters in function
+  - what is return keyword in function
+  - how to call a function
+  - how to give arguments to a function
+
+  - everything about switch statement
+
+  - while loop
+  - do while loop
+  - for of loop
+
+  - what is scop
+  - what scop lookup
+  - what is hoisting (logic behind it)
+  - hoisting things
+  - difference in var let const
+
+  - what is DOM
+  - get elements from DOM 
+  - add elements in DOM 
+  - remove elements from DOM 
+  - what is eventlistener 
+  - add or remove classes for DOM elements 
+
+  // ! mandatory
+  - what is object
+  - object syntax
+  - object key
+  - object values
+  - object entries
+  - object methods
+  - object methods syntax
+  - object keys reassign
+  - object delete entries
+  - object access keys dynamically
+*/
+
 const vehicle = {
-  make: 'toyota',
-  model: 'corolla',
-  year: 2023,
-  price: 10000000,
-  displayDetails: function () {
-    console.log(`
+    make: 'toyota',
+    model: 'corolla',
+    year: 2023,
+    price: 10000000,
+    displayDetails: function () {
+        console.log(`
         make: ${this.make}
         model: ${this.model}
         year: ${this.year}
     `);
-  }
+    }
 };
 
 //! 1. object properties reassign
